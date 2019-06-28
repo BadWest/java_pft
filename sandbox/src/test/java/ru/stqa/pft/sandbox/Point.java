@@ -18,5 +18,10 @@ class Point {
   public static double distance(Point p) {
     return Math.sqrt( Math.pow(p.x-x,2) + Math.pow(p.y-y,2) );
   }
+  public static void main(String[] args) {
+    Point p1 = new Point();
+    Point p2 = new Point(1,1);
+    System.out.println("Растстояние между точками "+p1+" и "+p2+" равно "+p1.distance(p2));
+  }
 }
 

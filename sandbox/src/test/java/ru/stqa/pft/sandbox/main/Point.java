@@ -1,4 +1,4 @@
-package ru.stqa.pft.sandbox;
+package ru.stqa.pft.sandbox.main;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,7 +19,7 @@ class Point {
     y = b;
   }
 
-  public static double distance(Point p) {
+  public double distance(Point p) {
     return Math.sqrt( Math.pow(p.x-x,2) + Math.pow(p.y-y,2) );
   }
 
